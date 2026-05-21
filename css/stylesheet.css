@@ -1,0 +1,296 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: #FFFBE9;
+    font-family: Arial, Helvetica, sans-serif;}
+
+.header{
+    background-color: #012694;
+    width: 100%;
+    padding: 1.25rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+list-style: none;
+display: flex;
+gap: 20px;
+padding: 0;
+margin: 0;
+}
+
+
+li a{ 
+text-decoration: none; 
+color: #FFFBE9;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo h1{
+    font-size: 1.75rem;
+    font-weight: normal;
+    color: #FFFBE9;
+}
+
+.logo img{
+    width: 9.375rem;
+}
+
+.menu{
+    margin-left: auto;
+}
+
+.menu ul{
+    list-style: none;
+
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #FFFBE9;
+    font-size: 0.95rem;
+}
+.hero{
+    width: 100%;
+    height: 25rem;
+
+    background-image: url(../images/ChatGPT\ Image\ 7\ may\ 2026\,\ 10_16_23\ p.m..png);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding-right: 6rem;
+}
+
+.texto-hero{
+    width: 25rem;
+}
+
+.texto-hero h2{
+    color: #FFFBE9;
+    font-size: 3.2rem;
+    font-weight: normal;
+}
+
+.progreso{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    margin-top: 3rem;
+}
+
+.caja-progreso{
+    background-color: #7387C5;
+
+    width: 44rem;
+    padding: 2rem;
+
+    border-radius: 2rem;
+}
+
+.caja-progreso h3{
+    background-color: #EFCF6E;
+
+    width: 16rem;
+    padding: 0.7rem;
+
+    border-radius: 1.2rem;
+
+    color: #FFFBE9;
+    font-size: 1.8rem;
+    font-weight: normal;
+
+    text-align: center;
+
+    margin-bottom: 1.5rem;
+}
+
+.contenido-progreso{
+    background-color: #FFFBE9;
+
+    height: 9rem;
+
+    border-radius: 1.5rem;
+
+    padding: 1.2rem;
+}
+
+.titulo-clase{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.materia{
+    font-size: 1rem;
+}
+
+.duracion{
+     font-size: 1rem
+}
+
+.estado{
+     margin-top: 0.5rem;
+
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.info-web{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 4rem;
+
+    margin-top: 6rem;
+    margin-bottom: 8rem;
+}
+
+.imagen-info img{
+    width: 20rem;
+}
+
+.texto-info{
+    width: 25rem;
+}
+
+.texto-info h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+
+    color: #1b1b1b;
+}
+
+.texto-info p{
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+
+.formulario{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+form{
+    width: 25rem;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 0.7rem;
+}
+
+form label{
+    font-size: 1.1rem;
+}
+
+form input{
+    padding: 0.7rem;
+
+    border-radius: 0.7rem;
+    border: 0.06rem solid gray;
+}
+
+form button{
+    margin-top: 1.2rem;
+
+    padding: 0.8rem;
+
+    background-color: #012694;
+    color: #FFFBE9;
+
+    border: none;
+    border-radius: 0.7rem;
+
+    cursor: pointer;
+}
+
+footer{
+    background-color: #1E2694;
+
+    width: 100%;
+
+    padding: 5rem;
+
+    color: white;
+}
+
+/* LINKS */
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+
+    gap: 3rem;
+
+    margin-bottom: 4rem;
+}
+
+.footer-links a{
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 1rem;
+}
+
+/* LINEA */
+
+footer hr{
+    border: 0.05rem solid rgba(255,255,255,0.4);
+
+    margin-bottom: 4rem;
+}
+
+/* REDES */
+
+.redes{
+    width: 100%;
+}
+
+.redes p{
+    margin-bottom: 1.5rem;
+
+    font-size: 1.1rem;
+}
+
+.iconos{
+    display: flex;
+
+    gap: 1.5rem;
+}
+
+.iconos a{
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 1.2rem;
+}
