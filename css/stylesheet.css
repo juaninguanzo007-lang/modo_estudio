@@ -92,12 +92,12 @@ color: #FFFBE9;
     border-radius:15px;
     overflow:hidden;
 
-    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    box-shadow:0 0 10px #25241F;
 }
 
 .mes{
     background:#7387C5;
-    color:white;
+    color:#FFFBE9;
 
     text-align:center;
 
@@ -138,7 +138,7 @@ color: #FFFBE9;
 }
 
 .nombre-usuario p{
-    color:white;
+    color:#FFFBE9;
     font-size:1.2rem;
 }
 
@@ -196,7 +196,7 @@ color: #FFFBE9;
 }
 
 .xp p{
-    color:white;
+    color:#FFFBE9;
 
     margin-bottom:0.5rem;
 }
@@ -206,7 +206,7 @@ color: #FFFBE9;
 
     height:15px;
 
-    background:#d9d9d9;
+    background-color: #FFFBE9;
 
     border-radius:20px;
 }
@@ -242,6 +242,40 @@ color: #FFFBE9;
     align-items:center;
 
     cursor:pointer;
+}
+
+.texto-perfil{  
+    color: #012694;
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+}
+
+.titulo-personal{
+    color: #EFCF6E;
+    display: flex;
+    align-items: center;
+}
+
+.info-personal{
+    width:400px;
+    min-height:140px;
+
+    background:#7387C5;
+
+    border-radius:10px;
+
+    padding:1rem;
+}
+
+.informacion{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap:3rem;
+
+    margin-top:4rem;
 }
 
 .hero{
@@ -287,7 +321,7 @@ color: #FFFBE9;
 
     border-radius:10px;
 
-    border:1px solid gray;
+    border:1px solid #25241F;
 
     cursor:pointer;
 }
@@ -316,7 +350,7 @@ color: #FFFBE9;
 
     border-radius:10px;
 
-    border:1px solid #ccc;
+    border:1px solid #FFFBE9;
 }
 
 .acciones-ia{
@@ -328,7 +362,7 @@ color: #FFFBE9;
 .acciones-ia button{
     background:#7387C5;
 
-    color:white;
+    color:#FFFBE9;
 
     border:none;
 
@@ -342,7 +376,7 @@ color: #FFFBE9;
 .respuesta-ia{
     background:#7387C5;
 
-    color:white;
+    color:#FFFBE9;
 
     padding:1.5rem;
 
@@ -358,7 +392,7 @@ color: #FFFBE9;
 .alerta{
     background:#7387C5;
 
-    color:white;
+    color:#FFFBE9;
 
     padding:1.5rem;
 
@@ -430,7 +464,7 @@ color: #FFFBE9;
 
     background:#7387C5;
 
-    color:white;
+    color:#FFFBE9;
 
     padding:1.5rem;
 
@@ -499,7 +533,7 @@ color: #FFFBE9;
     height: 3.5rem;
 
     background-color: #012694;
-    color: white;
+    color: #FFFBE9;
 
     border-radius: 50%;
 
@@ -545,7 +579,7 @@ color: #FFFBE9;
     font-size: 2rem;
     margin-bottom: 1rem;
 
-    color: #1b1b1b;
+    color: #25241F;
 }
 
 .texto-info p{
@@ -580,7 +614,7 @@ form input{
     padding: 0.7rem;
 
     border-radius: 0.7rem;
-    border: 0.06rem solid gray;
+    border: 0.06rem solid #25241F;
 }
 
 form button{
@@ -598,13 +632,13 @@ form button{
 }
 
 footer{
-    background-color: #1E2694;
+    background-color: #012694;
 
     width: 100%;
 
     padding: 5rem;
 
-    color: white;
+    color: #FFFBE9;
 }
 
 
@@ -618,7 +652,7 @@ footer{
 }
 
 .footer-links a{
-    color: white;
+    color: #FFFBE9;
 
     text-decoration: none;
 
@@ -627,7 +661,7 @@ footer{
 
 
 footer hr{
-    border: 0.05rem solid rgba(255,255,255,0.4);
+    border: 0.05rem solid #25241F;
 
     margin-bottom: 4rem;
 }
@@ -650,7 +684,7 @@ footer hr{
 }
 
 .iconos a{
-    color: white;
+    color: #FFFBE9;
 
     text-decoration: none;
 
@@ -668,7 +702,7 @@ footer hr{
 .card-progreso{
     background:#7387C5;
 
-    color:white;
+    color:#FFFBE9;
 
     width:220px;
 
@@ -780,7 +814,7 @@ footer hr{
 
     height:20px;
 
-    background:#d9d9d9;
+    background:#e6e6e6;
 
     border-radius:20px;
 
@@ -813,7 +847,7 @@ footer hr{
 
     background:#7387C5;
 
-    color:white;
+    color:#FFFBE9;
 
     text-align:center;
 
